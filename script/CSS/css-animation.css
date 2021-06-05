@@ -1,0 +1,87 @@
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@keyframes fadeIn {
+    from {opacity: 0%}
+    to {opacity: 100%}
+}
+
+@keyframes fadeOut {
+    from {opacity: 100%}
+    to {opacity: 0%}
+}
+
+@keyframes fadeInfinity {
+    100% {opacity: 100%}
+    50% {opacity: 50%}
+    0% {opacity: 100%}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@keyframes pageIn {
+    from {opacity: 0%; transform: rotateZ(-5deg);}
+    to {opacity: 100%; transform: rotateZ(0deg);}
+}
+
+@keyframes rotateAnti {
+    100% {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(180deg);}
+    0% {transform: rotateZ(360deg);}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@keyframes balloon {
+    from {opacity: 0%; margin-top: 15px; border-radius: 0px 50px 0px 0px;}
+    to {opacity: 100%; border-radius: 3px;}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  fade-In-Out animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  pop-Top-Bottom animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@keyframes popTop {
+    from {opacity: 0%; margin-top: -10px;}
+    to {opacity: 100%;}
+}
+
+@keyframes popLeft {
+    from {opacity: 0%; margin-left: -10px;}
+    to {opacity: 100%;}
+}
+
+@keyframes popBottom {
+    from {opacity: 0%; margin-top: 20px;}
+    to {opacity: 100%;}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  pop-Top-Bottom animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  pop-Top-Bottom animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@keyframes flyTop {
+    from {opacity: 0%; bottom: 60px;}
+    to {opacity: 100%;}
+}
+
+
+@keyframes flyBottom {
+    from {opacity: 0%; bottom: 20px;}
+    to {opacity: 100%;}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  pop-Top-Bottom animations  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
